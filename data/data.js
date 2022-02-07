@@ -1,0 +1,60 @@
+const data = {
+  first: [
+    "",
+    "Discreate Structures",
+    "Computer Communication Networks",
+    "Business Plan",
+    "Real Time Operating System",
+    "Introduction to Data Science",
+  ],
+  secound: [
+    "",
+    "Introduction to Data Science LAB",
+    "Discreate Structures",
+    "Business Plan",
+    "Discreate Structures",
+    "Real Time Operating System",
+  ],
+  third: [
+    "",
+    "Introduction to Data Science LAB",
+    "Soft Skills",
+    "Introduction to Data Science",
+    "Software Engineering",
+    "Software Engineering",
+  ],
+  fourth: [
+    "",
+    "Introduction to Data Science LAB",
+    "Introduction to Data Science",
+    "Discreate Structures",
+    "Soft Skills",
+    "Computer Communication Networks",
+  ],
+  fifth: [
+    "",
+    "Software Engineering",
+    "Software Engineering LAB",
+    "N/A",
+    "Business Plan",
+    "Computer Communication Networks LAB",
+  ],
+  sixth: [
+    "",
+    "Real Time Operating System",
+    "Software Engineering LAB",
+    "N/A",
+    "N/A",
+    "Computer Communication Networks LAB",
+  ],
+  seventh: [
+    "",
+    "Computer Communication Networks System",
+    "Software Engineering LAB",
+    "N/A",
+    "N/A",
+    "Computer Communication Networks LAB",
+  ],
+};
+
+module.exports = data;
