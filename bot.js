@@ -44,7 +44,7 @@ let classOne = new cron.CronJob("00 27 3 * * *", () => {
   }
 });
 
-console.log(d.getHours+":"+d.getMinutes)
+console.log(d.getHours()+":"+d.getMinutes())
 classOne.start();
 
 let classTwo = new cron.CronJob("00 27 4 * * *", () => {
