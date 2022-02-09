@@ -15,7 +15,7 @@ const sendMessage = (title, description, img_link) => {
     .setThumbnail(img_link)
     .setColor(clr);
   client.channels.cache
-    .get("940843265849184256")
+    .get(process.env.DISCORD_CHANNEL_ID)
     .send({ embeds: [exampleEmbed] });
 };
 
