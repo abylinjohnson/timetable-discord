@@ -34,8 +34,9 @@ client.on("messageCreate", (message) => {
 
 client.on("ready", () => {
   console.log(`Logged in as ${client.user.tag}!`);
+  sendMessage(data.first[2], "Class Starts at 4:00 PM", img_link[data.first[2]]);
 });
-var day = d.getDate();
+var day = d.getDay();
 
 let classOne = new cron.CronJob("00 27 3 * * *", () => {
   let title = data.first[day]
