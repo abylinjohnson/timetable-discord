@@ -15,7 +15,7 @@ const sendMessage = (title, description, img_link) => {
     .setThumbnail(img_link)
     .setColor(clr);
   client.channels.cache
-    .get("939998394632523826")
+    .get("940843265849184256")
     .send({ embeds: [exampleEmbed] });
 };
 
@@ -34,9 +34,8 @@ client.on("messageCreate", (message) => {
 
 client.on("ready", () => {
   console.log(`Logged in as ${client.user.tag}!`);
-  sendMessage(data.first[2], "Class Starts at 4:00 PM", img_link[data.first[2]]);
 });
-var day = d.getDay();
+var day = d.getDate();
 
 let classOne = new cron.CronJob("00 27 3 * * *", () => {
   let title = data.first[day]
